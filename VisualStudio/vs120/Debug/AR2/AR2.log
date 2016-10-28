@@ -1,0 +1,44 @@
+﻿Build started 2016/9/17 17:36:31.
+     1>Project "C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\AR2.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\include\win32-i386" /IC:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\include /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\AR2\\" /Fd"Debug\AR2\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\lib\SRC\AR2\coord.c ..\..\lib\SRC\AR2\featureMap.c ..\..\lib\SRC\AR2\featureSet.c ..\..\lib\SRC\AR2\handle.c ..\..\lib\SRC\AR2\imageSet.c ..\..\lib\SRC\AR2\jpeg.c ..\..\lib\SRC\AR2\marker.c ..\..\lib\SRC\AR2\matching.c ..\..\lib\SRC\AR2\matching2.c ..\..\lib\SRC\AR2\searchPoint.c ..\..\lib\SRC\AR2\selectTemplate.c ..\..\lib\SRC\AR2\surface.c ..\..\lib\SRC\AR2\template.c ..\..\lib\SRC\AR2\tracking.c ..\..\lib\SRC\AR2\tracking2d.c ..\..\lib\SRC\AR2\util.c
+         coord.c
+         featureMap.c
+         featureSet.c
+         handle.c
+         imageSet.c
+         jpeg.c
+         marker.c
+         matching.c
+         matching2.c
+         searchPoint.c
+         selectTemplate.c
+         surface.c
+         template.c
+         tracking.c
+         tracking2d.c
+         util.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386\AR2d.lib" /NOLOGO Debug\AR2\coord.obj
+         Debug\AR2\featureMap.obj
+         Debug\AR2\featureSet.obj
+         Debug\AR2\handle.obj
+         Debug\AR2\imageSet.obj
+         Debug\AR2\jpeg.obj
+         Debug\AR2\marker.obj
+         Debug\AR2\matching.obj
+         Debug\AR2\matching2.obj
+         Debug\AR2\searchPoint.obj
+         Debug\AR2\selectTemplate.obj
+         Debug\AR2\surface.obj
+         Debug\AR2\template.obj
+         Debug\AR2\tracking.obj
+         Debug\AR2\tracking2d.obj
+         Debug\AR2\util.obj
+         AR2.vcxproj -> C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386\AR2d.lib
+     1>Done Building Project "C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\AR2.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95

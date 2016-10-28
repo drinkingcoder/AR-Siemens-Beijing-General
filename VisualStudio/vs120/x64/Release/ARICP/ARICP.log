@@ -1,0 +1,30 @@
+﻿生成启动时间为 2016/9/17 17:46:16。
+     1>项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\ARICP.vcxproj”在节点 8 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\include /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\ARICP\\" /Fd"x64\Release\ARICP\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\lib\SRC\ARICP\icpCalibStereo.c ..\..\lib\SRC\ARICP\icpCore.c ..\..\lib\SRC\ARICP\icpHandle.c ..\..\lib\SRC\ARICP\icpPoint.c ..\..\lib\SRC\ARICP\icpPointRobust.c ..\..\lib\SRC\ARICP\icpStereoHandle.c ..\..\lib\SRC\ARICP\icpStereoPoint.c ..\..\lib\SRC\ARICP\icpStereoPointRobust.c ..\..\lib\SRC\ARICP\icpUtil.c
+         icpCalibStereo.c
+         icpCore.c
+         icpHandle.c
+         icpPoint.c
+         icpPointRobust.c
+         icpStereoHandle.c
+         icpStereoPoint.c
+         icpStereoPointRobust.c
+         icpUtil.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win64-x64\ARICP.lib" /NOLOGO /MACHINE:X64 x64\Release\ARICP\icpCalibStereo.obj
+         x64\Release\ARICP\icpCore.obj
+         x64\Release\ARICP\icpHandle.obj
+         x64\Release\ARICP\icpPoint.obj
+         x64\Release\ARICP\icpPointRobust.obj
+         x64\Release\ARICP\icpStereoHandle.obj
+         x64\Release\ARICP\icpStereoPoint.obj
+         x64\Release\ARICP\icpStereoPointRobust.obj
+         x64\Release\ARICP\icpUtil.obj
+         ARICP.vcxproj -> C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win64-x64\ARICP.lib
+     1>已完成生成项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\ARICP.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.65

@@ -1,0 +1,151 @@
+﻿生成启动时间为 2016/9/17 14:30:09。
+     1>项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\simple.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\include\win32-i386" /IC:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D DEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\simple\\" /Fd"Debug\simple\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\examples\simple\connection.cpp ..\..\examples\simple\simpleTest.cpp
+         simpleTest.cpp
+     1>..\..\examples\simple\simpleTest.cpp(404): warning C4101: 'j' : unreferenced local variable
+         connection.cpp
+     1>..\..\examples\simple\connection.cpp(36): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(46): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(82): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(94): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(121): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(153): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\examples\simple\connection.cpp(213): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(235): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(264): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(271): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(313): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(324): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(353): warning C4002: too many actual parameters for macro 'LOG'
+     1>..\..\examples\simple\connection.cpp(400): warning C4002: too many actual parameters for macro 'LOG'
+         Generating Code...
+     1>c:\users\cms\desktop\artoolkit5\examples\simple\connection.cpp(52): warning C4715: 'Server::InitSocket' : not all control paths return a value
+     1>c:\users\cms\desktop\artoolkit5\examples\simple\connection.cpp(280): warning C4715: 'Client::InitSocket' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\simpled.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386" /LIBPATH:C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\debug /LIBPATH:C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib ARd.lib ARICPd.lib ARgsubd.lib ARvideod.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\simple.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\simpled.lib" /MACHINE:X86 /SAFESEH Debug\simple\connection.obj
+         Debug\simple\simpleTest.obj
+     1>ARd.lib(ar3DCreateHandle.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(ar3DCreateHandle.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arCreateHandle.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arCreateHandle.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arDetectMarker.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arDetectMarker.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arDetectMarker2.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arDetectMarker2.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arGetLine.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arGetLine.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arGetMarkerInfo.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arGetMarkerInfo.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arGetTransMat.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arGetTransMat.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arImageProc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arImageProc.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabeling.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabeling.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBI3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBI3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBI3C565.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBI3C565.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBI3CA.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBI3CA.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBI3CA4444.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBI3CA4444.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBI3CA5551.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBI3CA5551.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBIA3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBIA3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBIC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBIC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBICY.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBICY.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBIYC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBIYC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBR3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBR3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBR3C565.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBR3C565.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBR3CA.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBR3CA.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBR3CA4444.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBR3CA4444.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBR3CA5551.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBR3CA5551.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBRA3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBRA3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBRC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBRC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBRCY.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBRCY.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBRYC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBRYC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDBZ.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDBZ.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWI3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWI3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWI3C565.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWI3C565.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWI3CA.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWI3CA.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWI3CA4444.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWI3CA4444.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWI3CA5551.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWI3CA5551.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWIA3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWIA3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWIC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWIC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWICY.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWICY.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWIYC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWIYC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWR3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWR3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWR3C565.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWR3C565.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWR3CA.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWR3CA.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWR3CA4444.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWR3CA4444.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWR3CA5551.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWR3CA5551.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWRA3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWRA3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWRC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWRC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWRCY.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWRCY.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWRYC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWRYC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubDWZ.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubDWZ.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBI3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBI3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBI3C565.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBI3C565.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBI3CA.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBI3CA.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBI3CA4444.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBI3CA4444.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBI3CA5551.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBI3CA5551.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBIA3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBIA3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBIC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBIC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBICY.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBICY.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBIYC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBIYC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBR3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBR3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBR3C565.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBR3C565.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBR3CA.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBR3CA.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBR3CA4444.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBR3CA4444.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBR3CA5551.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBR3CA5551.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBRA3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBRA3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBRC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBRC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBRCY.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBRCY.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBRYC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBRYC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEBZ.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEBZ.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWI3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWI3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWI3C565.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWI3C565.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWI3CA.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWI3CA.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWI3CA4444.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWI3CA4444.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWI3CA5551.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWI3CA5551.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWIA3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWIA3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWIC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWIC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWICY.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWICY.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWIYC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWIYC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWR3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWR3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWR3C565.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWR3C565.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWR3CA.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWR3CA.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWR3CA4444.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWR3CA4444.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWR3CA5551.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWR3CA5551.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWRA3C.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWRA3C.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWRC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWRC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWRCY.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWRCY.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWRYC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWRYC.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arLabelingSubEWZ.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arLabelingSubEWZ.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arPattAttach.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arPattAttach.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arPattCreateHandle.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arPattCreateHandle.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arPattGetID.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arPattGetID.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arPattLoad.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arPattLoad.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(arUtil.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(arUtil.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(mAlloc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(mAlloc.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(mAllocDup.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(mAllocDup.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(mAllocMul.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(mAllocMul.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(mAllocTrans.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(mAllocTrans.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(mDup.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(mDup.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(mFree.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(mFree.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(mMul.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(mMul.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(mPCA.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(mPCA.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(mSelfInv.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(mSelfInv.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(mTrans.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(mTrans.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(paramChangeSize.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(paramChangeSize.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(paramClear.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(paramClear.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(paramDecomp.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(paramDecomp.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(paramDisp.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(paramDisp.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(paramDistortion.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(paramDistortion.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(paramFile.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(paramFile.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(paramLT.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(paramLT.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(vAlloc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(vAlloc.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(vFree.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(vFree.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(vHouse.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(vHouse.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(vInnerP.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(vInnerP.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARd.lib(vTridiag.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARd.lib(vTridiag.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARgsubd.lib(argBase.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARgsubd.lib(argBase.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARgsubd.lib(argDraw.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARgsubd.lib(argDraw.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARgsubd.lib(argDrawImage.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARgsubd.lib(argDrawImage.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARgsubd.lib(argDrawMode.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARgsubd.lib(argDrawMode.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARgsubd.lib(argFunction.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARgsubd.lib(argFunction.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+     1>ARgsubd.lib(argWindow.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ARgsubd.lib(argWindow.obj)' or at 'C:\Users\cms\Desktop\ARToolKit5\bin\vc120.pdb'; linking object as if no debug info
+         simple.vcxproj -> C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\simpled.exe
+     1>已完成生成项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\simple.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.56

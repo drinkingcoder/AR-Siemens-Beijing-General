@@ -1,0 +1,14 @@
+﻿生成启动时间为 2016/9/18 18:01:04。
+     1>项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\ARosg.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\include\win32-i386" /IC:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\include /Zi /nologo /W3 /WX- /O2 /Oy- /D LIBAROSG_EXPORTS /D WIN32 /D NDEBUG /D _DLL /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\ARosg\\" /Fd"Release\ARosg\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\lib\SRC\ARosg\arosg.cpp
+         arosg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\ARosg.dll" /NOLOGO /LIBPATH:C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib /LIBPATH:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386" AR.lib osg.lib osgDB.lib osgFX.lib osgGA.lib osgViewer.lib osgUtil.lib OpenThreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\ARosg.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386\ARosg.lib" /MACHINE:X86 /SAFESEH /DLL Release\ARosg\arosg.obj
+            Creating library C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386\ARosg.lib and object C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386\ARosg.exp
+         ARosg.vcxproj -> C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\ARosg.dll
+     1>已完成生成项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\ARosg.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.35

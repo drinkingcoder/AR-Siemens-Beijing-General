@@ -1,0 +1,17 @@
+﻿Build started 2016/10/28 10:19:36.
+     1>Project "C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\simple.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\..\..\include\win32-i386" /I"C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\..\..\include" /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\simple\\" /Fd"Release\simple\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\examples\simple\simpleTest.cpp
+         simpleTest.cpp
+     1>c:\users\user\documents\ar-beijing-siemens\examples\simple\car.h(150): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\ar-beijing-siemens\examples\simple\car.h(224): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\examples\simple\simpleTest.cpp(563): warning C4101: 'j' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\..\..\bin\simple.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\..\..\lib\win32-i386" /LIBPATH:"C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\..\..\lib\release" /LIBPATH:"C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\..\..\lib" AR.lib ARICP.lib ARgsub.lib ARvideo.lib LibConnection_vs13.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\..\..\bin\simple.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\..\..\bin\simple.lib" /MACHINE:X86 /SAFESEH Release\simple\connection.obj
+         Release\simple\simpleTest.obj
+         simple.vcxproj -> C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\..\..\bin\simple.exe
+     1>Done Building Project "C:\Users\USER\Documents\AR-Beijing-Siemens\VisualStudio\vs120\simple.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.40

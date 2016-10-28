@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/9/18 18:01:04。
+     1>项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\ARWrapper.vcxproj”在节点 5 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\ARWrapper.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\..\lib\win32-i386" /LIBPATH:..\..\lib AR.lib ARgsub_lite.lib ARVideo.lib ARMulti.lib ARICP.lib AR2.lib KPM.lib ARUtil.lib pthreadVC2.lib opengl32.lib glu32.lib libjpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\ARWrapper.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386\ARWrapper.lib" /MACHINE:X86 /SAFESEH /DLL Release\ARWrapper\ARToolKitWrapperExportedAPI.obj
+         Release\ARWrapper\ARMarker.obj
+         Release\ARWrapper\ARPattern.obj
+         Release\ARWrapper\ARMarkerMulti.obj
+         Release\ARWrapper\ARMarkerSquare.obj
+         Release\ARWrapper\ARMarkerNFT.obj
+         Release\ARWrapper\trackingSub.obj
+         Release\ARWrapper\AndroidVideoSource.obj
+         Release\ARWrapper\ARToolKitVideoSource.obj
+         Release\ARWrapper\VideoSource.obj
+         Release\ARWrapper\ColorConversion.obj
+         Release\ARWrapper\ARController.obj
+         Release\ARWrapper\AndroidFeatures.obj
+            Creating library C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386\ARWrapper.lib and object C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386\ARWrapper.exp
+         Generating code
+         Finished generating code
+         ARWrapper.vcxproj -> C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\ARWrapper.dll
+       PostBuildEvent:
+         copy "C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin\ARWrapper.dll" ..\bin
+         :VCEnd
+         已复制         1 个文件。
+     1>已完成生成项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\ARWrapper.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.93

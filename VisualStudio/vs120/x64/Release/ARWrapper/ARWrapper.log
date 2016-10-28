@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/9/17 17:51:46。
+     1>项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\ARWrapper.vcxproj”在节点 5 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin64\ARWrapper.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\..\lib\win64-x64" /LIBPATH:..\..\lib AR.lib ARgsub_lite.lib ARVideo.lib ARMulti.lib ARICP.lib AR2.lib KPM.lib ARUtil.lib pthreadVC2.lib opengl32.lib glu32.lib libjpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\bin64\ARWrapper.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win64-x64\ARWrapper.lib" /MACHINE:X64 /DLL x64\Release\ARWrapper\ARToolKitWrapperExportedAPI.obj
+         x64\Release\ARWrapper\ARMarker.obj
+         x64\Release\ARWrapper\ARPattern.obj
+         x64\Release\ARWrapper\ARMarkerMulti.obj
+         x64\Release\ARWrapper\ARMarkerSquare.obj
+         x64\Release\ARWrapper\ARMarkerNFT.obj
+         x64\Release\ARWrapper\trackingSub.obj
+         x64\Release\ARWrapper\AndroidVideoSource.obj
+         x64\Release\ARWrapper\ARToolKitVideoSource.obj
+         x64\Release\ARWrapper\VideoSource.obj
+         x64\Release\ARWrapper\ColorConversion.obj
+         x64\Release\ARWrapper\ARController.obj
+         x64\Release\ARWrapper\AndroidFeatures.obj
+            Creating library C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win64-x64\ARWrapper.lib and object C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win64-x64\ARWrapper.exp
+         Generating code
+         Finished generating code
+     1>LINK : fatal error LNK1104: cannot open file '..\..\lib\win64-x64\AR.lib'
+     1>已完成生成项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\ARWrapper.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.78

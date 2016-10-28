@@ -1,0 +1,44 @@
+﻿生成启动时间为 2016/9/17 18:18:59。
+     1>项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\AR2.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\include\win64-x64" /IC:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\include /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\AR2\\" /Fd"x64\Release\AR2\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\lib\SRC\AR2\coord.c ..\..\lib\SRC\AR2\featureMap.c ..\..\lib\SRC\AR2\featureSet.c ..\..\lib\SRC\AR2\handle.c ..\..\lib\SRC\AR2\imageSet.c ..\..\lib\SRC\AR2\jpeg.c ..\..\lib\SRC\AR2\marker.c ..\..\lib\SRC\AR2\matching.c ..\..\lib\SRC\AR2\matching2.c ..\..\lib\SRC\AR2\searchPoint.c ..\..\lib\SRC\AR2\selectTemplate.c ..\..\lib\SRC\AR2\surface.c ..\..\lib\SRC\AR2\template.c ..\..\lib\SRC\AR2\tracking.c ..\..\lib\SRC\AR2\tracking2d.c ..\..\lib\SRC\AR2\util.c
+         coord.c
+         featureMap.c
+         featureSet.c
+         handle.c
+         imageSet.c
+         jpeg.c
+         marker.c
+         matching.c
+         matching2.c
+         searchPoint.c
+         selectTemplate.c
+         surface.c
+         template.c
+         tracking.c
+         tracking2d.c
+         util.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386\AR2.lib" /NOLOGO /MACHINE:X64 x64\Release\AR2\coord.obj
+         x64\Release\AR2\featureMap.obj
+         x64\Release\AR2\featureSet.obj
+         x64\Release\AR2\handle.obj
+         x64\Release\AR2\imageSet.obj
+         x64\Release\AR2\jpeg.obj
+         x64\Release\AR2\marker.obj
+         x64\Release\AR2\matching.obj
+         x64\Release\AR2\matching2.obj
+         x64\Release\AR2\searchPoint.obj
+         x64\Release\AR2\selectTemplate.obj
+         x64\Release\AR2\surface.obj
+         x64\Release\AR2\template.obj
+         x64\Release\AR2\tracking.obj
+         x64\Release\AR2\tracking2d.obj
+         x64\Release\AR2\util.obj
+         AR2.vcxproj -> C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\..\..\lib\win32-i386\AR2.lib
+     1>已完成生成项目“C:\Users\cms\Desktop\ARToolKit5\VisualStudio\vs120\AR2.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.28
